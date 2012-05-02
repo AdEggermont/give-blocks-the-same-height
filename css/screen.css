@@ -1,0 +1,50 @@
+/*
+	Reset
+*/
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section { display: block; }
+body, form, ol, ul, dl, li, dt, dd, td, th ,tr, h1, h2, h3, h4, h5, h6, p, pre, blockquote, address, figure { margin: 0; padding: 0; }
+ol, ul { list-style: none; }
+img { border:0; }
+fieldset { margin: 0; padding: 0; border: 0; }
+input, select, textarea { font-size: 100%; vertical-align: middle; }
+table { border-collapse: collapse; border-spacing: 0; empty-cells: show; }
+th { text-align: left; }
+a:focus { overflow: hidden; }
+
+
+/*
+	General
+*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	background: #FFF;
+}
+
+#container {
+	width: 900px;
+	margin: 150px auto 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+/*
+	Blocks
+*/
+
+.block {
+	float: left;
+	width: 230px;
+	margin: 0 20px 0 0;
+	padding: 20px;
+	background: #EEE;
+	border: 1px solid #CCC;
+	color: #666;
+}
+
+	.block h3 {
+		font-size: 15px;
+		padding: 0 0 10px 0;
+	}

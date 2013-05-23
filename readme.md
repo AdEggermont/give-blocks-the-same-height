@@ -2,9 +2,7 @@
 
 Give blocks the height of the highest block
 
-Don't forget to change these variables:
-
-* $block
+Add *giveBlocksSameHeight*-function and use *giveBlocksSameHeight([element]);*
 
 *The css is just for the demo, only the javascript is needed*
 

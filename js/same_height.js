@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).load(function() {
 
 	var $block = $('.block'),
 		blockHeight = 0;

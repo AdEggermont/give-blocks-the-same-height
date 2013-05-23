@@ -2,7 +2,7 @@ $(window).load(function() {
 
 	function giveBlocksSameHeight(element) {
 		var $block = element;
-		var	blockHeight = 0;
+		var blockHeight = 0;
 
 		$block.each(function(){
 			if($(this).height() > blockHeight){

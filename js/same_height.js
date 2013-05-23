@@ -1,14 +1,18 @@
 $(window).load(function() {
 
-	var $block = $('.block'),
-		blockHeight = 0;
+	function giveBlocksSameHeight(element) {
+		var $block = element;
+		var	blockHeight = 0;
 
-	$block.each(function(){
-		if($(this).height() > blockHeight){
-			blockHeight = $(this).height();
-		}
-	});
+		$block.each(function(){
+			if($(this).height() > blockHeight){
+				blockHeight = $(this).height();
+			}
+		});
 
-	$block.height(blockHeight);
+		$block.height(blockHeight);
+	}
+
+	giveBlocksSameHeight($('.block'));
 
 });
